@@ -1,0 +1,10 @@
+GET localhost:8080/discounts?type=PERCENTS
+
+###
+
+POST localhost:8080/discounts/apply?type=PERCENTS
+Content-Type: application/json
+
+{
+  "prices": [-100.0, 200.0, 300.0]
+}
